@@ -9,3 +9,14 @@ langchain-google-genai>=2.0.0
 
 # LangChain 核心
 langchain-core>=0.3.0
+
+# Human-in-the-Loop 扩展依赖
+# FastAPI - REST API 服务
+fastapi>=0.104.0
+
+# Pydantic - 数据验证
+pydantic>=2.0.0
+
+# 可选: SQLite 持久化支持 (生产环境推荐)
+# 安装后可使用 CheckpointerType.SQLITE 实现断点续跑
+# langgraph-checkpoint-sqlite>=2.0.0
