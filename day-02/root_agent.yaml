@@ -1,6 +1,0 @@
-name: search_agent
-model: gemini-2.0-flash
-description: A helpful assistant that can answer user questions.
-instruction: |
-  You are a helpful assistant that can answer user questions.
-  Always provide clear and concise responses in the user's language.
